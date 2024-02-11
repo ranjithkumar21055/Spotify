@@ -1,32 +1,36 @@
-
-.display{
+.display {
     display: flex;
 }
 
-.content{
+.content {
     justify-content: center;
 }
 
-.align{
+.align {
     align-items: center;
 }
 
-column{
+column {
     flex-direction: column;
 }
 
-.invert{
+.invert {
     filter: invert(1);
     height: 24px;
 }
 
-.bg-grey{
+.bg-grey {
     background-color: #121212;
     border-radius: 7px;
-    width:300px;
-    
+    width: 300px;
+
 }
-.bg-black{
-    background-color:black;
+
+.bg-black {
+    background-color: black;
     color: #FFFFFF;
+}
+
+.space {
+    justify-content: space-between;
 }

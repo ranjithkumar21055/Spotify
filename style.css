@@ -6,12 +6,13 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 17px;
+
 }
 
 .left {
-    width: 25vw;
+    width: 22vw;
     margin: 3px;
-    
+
 
 }
 
@@ -40,24 +41,28 @@ body {
     margin: 5px;
     margin-top: 8px;
     padding-right: 95px;
+    min-height: 38.05vw;
 }
-.bottom .add{
+
+.bottom .add {
     width: 18px;
     margin-left: 190px;
 }
 
-.bottom .arrow{
+.bottom .arrow {
     width: 18px;
     margin-left: 40px;
 }
-    
+
 
 .heading span {
-    padding:0px 10px;  
+    padding: 0px 10px;
 }
 
 .footer {
     padding: 20px 8px;
+    position: absolute;
+    bottom: 20px;
 
 }
 
@@ -77,4 +82,47 @@ body {
     font-size: small;
     font-weight: normal;
     opacity: 60%;
+}
+
+nav {
+    background-color: #121212;
+    border-radius: 7px;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+
+.icon img {
+    width: 9px;
+    margin: 20px 5px;
+}
+
+.right-arrow {
+    padding-left: 17px;
+}
+
+.left-arrow {
+    padding-left: 33px;
+}
+
+.signup {
+    background-color: #121212;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    padding: 20px 24px;
+    font-size: 15px;
+}
+
+.login {
+    font-weight: bolder;
+    padding: 17px 33px;
+    border-radius: 30px;
+    font-size: 15px;
+
+}
+
+.btn button {
+    margin-top: 5px;
 }

@@ -23,7 +23,7 @@ body {
     margin: 7px;
     margin-top: 8px;
     border-radius: 7px;
-    
+
 }
 
 .top {
@@ -48,7 +48,8 @@ body {
     padding-right: 95px;
     min-height: 38.05vw;
 }
-.text{
+
+.text {
     margin-left: 5px;
 }
 
@@ -136,12 +137,12 @@ nav {
 }
 
 
-.playlist-header h1{
+.playlist-header h1 {
     font-size: 24px;
     margin: 4px;
 }
 
-.show-all{
+.show-all {
     background-color: #1d1d1d;
     border: none;
     color: white;
@@ -151,20 +152,37 @@ nav {
     margin-top: 8px;
 }
 
-.cards{
-    gap: 15px;
+.cards {
+    gap: 14px;
 }
 
-.cards .card{
+.cards .card {
     background-color: #181818;
     margin: 5px;
     border-radius: 7px;
-    padding: 15px;
+    padding: 15px 17px;
     width: 150px;
     height: fit-content;
+    position: relative;
 }
-.card img{
+
+.card .card-img {
     height: 150px;
     width: 150px;
     border-radius: 7px;
+}
+
+.play-btn {
+    height: 50px;
+    width: 50px;
+    background-color: #1ed760;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 99px;
+    right: 23px;
+}
+
+.play-btn img {
+    width: 20px;
+    margin-left: 4px;
 }

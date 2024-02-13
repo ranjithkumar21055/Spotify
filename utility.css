@@ -34,18 +34,21 @@ column {
 .space {
     justify-content: space-between;
 }
-.mgn-left{
+
+.mgn-left {
     margin-left: 20px;
 }
-.size{
+
+.size {
     font-size: 17px;
     font-weight: bolder;
     margin-top: 15px;
     margin-left: 0px;
 }
-.size2{
+
+.size2 {
     font-size: 14px;
-    font-weight:lighter;
+    font-weight: lighter;
     opacity: 60%;
     margin-top: 8px;
     margin-left: 0px;
